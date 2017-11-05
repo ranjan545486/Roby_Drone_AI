@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<script language='javascript'>
+function call(name) {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', name, true);
+  xhr.send();
+}
+</script>
+<body>
+<a href="#" onclick="call('takeoff');">Takeoff</a>
+<a href="#" onclick="call('land');">Land</a>
+</body>
+</html>
